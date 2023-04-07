@@ -1,1 +1,1 @@
-#End to End Hate Speech Detection Project
+# End to End Hate Speech Detection Project
