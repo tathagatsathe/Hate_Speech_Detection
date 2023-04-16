@@ -1,3 +1,10 @@
 pandas
 numpy
+matplotlib
+scikit-learn
+jupyter
+nltk
+datasets
+transformers
+torch==1.9.0
 -e .
