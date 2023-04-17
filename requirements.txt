@@ -1,10 +1,11 @@
 pandas
 numpy
 matplotlib
+seaborn
 scikit-learn
 jupyter
 nltk
 datasets
 transformers
 torch==1.9.0
--e .
+# -e .
