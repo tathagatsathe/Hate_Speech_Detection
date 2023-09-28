@@ -6,7 +6,7 @@ from src.utils import tokenize
 st.set_page_config(page_title="Hate speech detector")
 st.title("Hate speech detector")
 
-@st.cache(suppress_st_warning=True, allow_output_mutation=True)
+@st.cache_data(suppress_st_warning=True, allow_output_mutation=True)
 def load_model():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = BertClassifier()
